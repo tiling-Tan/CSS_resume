@@ -198,6 +198,7 @@
             </div>
         </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.4.0/Tween.min.js"></script>
     <script>
         portfolio1.onclick = function(){
             portfolioBar.className = "bar status-1";
@@ -212,7 +213,7 @@
     <script>
         setTimeout(function(){
             siteWelcome.classList.remove("active");
-        },1500)
+        },1250)
         window.onscroll = function(){
             //console.log(window.scrollY);
             if(window.scrollY > 0){
@@ -234,6 +235,12 @@
             }
         }
         let aTags = document.querySelectorAll('nav.menu > ul > li > a');
+        function animate(time) {
+            requestAnimationFrame(animate);
+            TWEEN.update(time);
+            }
+        requestAnimationFrame(animate);
+
         for(var i = 0;i < aTags.length;i++){
             aTags[i].onclick = function(x){
                 x.preventDefault();
@@ -241,9 +248,39 @@
                 let href = a.getAttribute('href'); //'#siteAbout'
                 let element = document.querySelector(href);
                 let top = element.offsetTop;
-                window.scrollTo(0,top-65);
-            }
-        }
+                
+                //滚动开始
+                // let n = 25;
+                let currentTop = window.scrollY;
+                let targetTop = top - 65;
+                let S = targetTop - currentTop;  //路程
+                let t = Math.abs((S/100)*300);  //时间
+                if(t > 500){
+                    t = 500;
+                }
+                // let t = 500/n;
+                // let s = (targetTop - currentTop)/n;
+                // let i = 0;
+                // let id = setInterval( () =>{
+                //     if(i === n){
+                //         window.clearInterval(id);
+                //         return
+                //     }
+                //     i = i + 1;
+                //     window.scrollTo(0,currentTop + s * i);
+                // },t)
+                //window.scrollTo(0,top-65);
+
+                const coords = { y: currentTop };   //起始位置
+                const tween = new TWEEN.Tween(coords)   //起始位置
+                    .to({ y: targetTop }, t)    //结束位置和时间
+                    .easing(TWEEN.Easing.Quadratic.InOut)  //缓动类型
+                    .onUpdate(function() { 
+                       window.scrollTo(0,coords.y);  //更新界面
+                    })
+                    .start();   //开始缓动
+                        }
+                    }
     </script>
 </body>
 </html>
