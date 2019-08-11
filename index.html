@@ -4,33 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/loading.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/main.css">
     <script src="//at.alicdn.com/t/font_1262619_nwul36w15nc.js"></script>
     <title>Vision的个人简历</title>
-    <style type="text/css">
-        .icon {
-            width: 1em; height: 1em;
-            vertical-align: -0.15em;
-            fill: currentColor;
-            overflow: hidden;
-        }
-        .site-welcome{
-            display: none;
-            position: fixed;
-            top:0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: #EFEFEF;
-            z-index: 1;
-            justify-content: center;
-            align-items: center;
-        }
-        .site-welcome.active{
-            display: flex;
-        }
-    </style>
 </head>
 <body>
     <div id="siteWelcome" class="site-welcome active">
@@ -82,6 +60,7 @@
         <div class="mask"></div>
     </div>
     <main>
+        
         <div data-x id="siteAbout" class="userCard">
             <div class="pictureAndText clearfix">
                 <div class="picture">
@@ -176,39 +155,42 @@
     </section>
     <section data-x id="siteWorks" class="portfolio">
         <h2>作品集</h2>
-        <nav>
-            <ol class="clearfix">
-                <li id="portfolio1">所有</li>
-                <li id="portfolio2">框架</li>
-                <li id="portfolio3">原生JS&amp;CSS</li>
-            </ol>
-            <div id="portfolioBar" class="bar status-1">
-                <div class="bar-inner"></div>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <img src='./img/nav-page.jpg' class="swiper-slide">
+                    <img src='./img/canvas.jpg' class="swiper-slide">
+                    <img src='./img/apple-style-slide.jpg' class="swiper-slide">
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
             </div>
-        </nav>
-        <div class="jobs" style="height: 597px;">
-            <div class="big" style="top: 0;left:0;">
-                <img src="./img/1.jpg" alt="作品1">
-            </div>
-            <div class="small" style="top:0px;left:645px;">
-                <img src="./img/2.jpg" alt="作品2">
-            </div>
-            <div class="small" style="top:312px;left:645px;">
-                <img src="./img/3.jpg" alt="作品3">
-            </div>
-        </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.4.0/Tween.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    
     <script>
-        portfolio1.onclick = function(){
-            portfolioBar.className = "bar status-1";
-        }
-        portfolio2.onclick = function(){
-            portfolioBar.className = "bar status-2";
-        }
-        portfolio3.onclick = function(){
-            portfolioBar.className = "bar status-3";
-        }
+        var mySwiper = new Swiper ('.swiper-container', {
+            // Optional parameters
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            }
+        })
     </script>
     <script>
         setTimeout(function(){
