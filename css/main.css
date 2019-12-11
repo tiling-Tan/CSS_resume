@@ -265,12 +265,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .userCard .text dt, dd {
     float: left;
-    padding: 5px 0;
+    padding: 7px 0;
+    font-weight: bold;
 }
 
 .userCard .text dt {
     width: 30%;
-    font-weight: bold;
     color: grey
 }
 
@@ -516,13 +516,14 @@ section.message > ol > li {
     background-color: #ffffff;
     box-sizing: border-box;
     position: relative;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 .portfolio .item img{
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    transition: 1s transform cubic-bezier(0.23, 1, 0.32, 1);
 }
 .portfolio .item .cover{
     background-color: inherit;
@@ -533,5 +534,28 @@ section.message > ol > li {
     position: absolute;
     top: 0;
     left: 0;
-    transform: scale(2) rotate(-45deg) translateX(-100%) translateY(-200%);
+    transform: scale(2) rotate(-45deg) translateX(-50%) translateY(-100%);
+    transition: 1s transform cubic-bezier(0.23, 1, 0.32, 1);
 }
+.portfolio .item:hover img{
+    transform: scale(1.1);
+}
+.portfolio .item:hover .cover{
+    transform: scale(2) rotate(-45deg);
+}
+.portfolio .item .watchText{
+    opacity: 0;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    color: #ffffff;
+    font-weight: bold;
+    z-index: 11;
+    transform: translateX(-50%) translateY(-200%);
+    transition: 1s transform cubic-bezier(0.23, 1, 0.32, 1);
+}
+.portfolio .item:hover .watchText{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+}
+
