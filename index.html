@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./css/loading.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
     <link rel="stylesheet" href="./css/main.css">
-    <script src="//at.alicdn.com/t/font_1262619_qbatip2of6.js"></script>
+    <link rel="icon" href="./img/home.png">
+    <script src="//at.alicdn.com/t/font_1262619_so4doq4ltss.js"></script>
     <title>Vision的个人主页</title>
 </head>
 <body>
@@ -187,18 +188,18 @@
                 </p>
             </div>
         </div>
-        <div class="item" style="background-color: #FF8392;">
+        <div class="item" style="background-color: #5048ab;">
             <div class="cover"></div>
             <img src="./img/dynamicCV.gif" alt="">
             <div class="watchText">
-                <p>动态简历生成器</p>
+                <p class="proTitle">动态简历生成器</p>
                 <p class="proContent">
                     <a href="https://tiling-tan.github.io/demo-animation-resume/index.html" target="_blank">项目预览</a> |
                     <a href="https://github.com/tiling-Tan/demo-animation-resume" target="_blank">查看源码</a>
                 </p>
             </div>
         </div>
-        <div class="item" style="background-color: #20aae0;">
+        <div class="item" style="background-color: #5084b9;">
             <div class="cover"></div>
             <img src="./img/draw.jpg" alt="">
             <div class="watchText">
@@ -209,7 +210,7 @@
                 </p>
             </div>
         </div>
-        <div class="item" style="background-color: #00a975;">
+        <div class="item" style="background-color: #18585A;">
             <div class="cover"></div>
             <img src="./img/homepage.jpg" alt="">
             <div class="watchText">
@@ -223,16 +224,28 @@
     </div>
 </section>
 <section class="message">
-    <h2>留言</h2>
-    <form id="postMessageForm" style="max-width:940px;margin: 30px auto;">
-        <label>姓名:</label>
-        <input type="text" name="name">
-        <label>评论:</label>
-        <input type="text" name="content">
-        <input type="submit" value="提交">
-    </form>
-    <ol id="messageList"></ol>
+    <h2>留言板</h2>
+    <div class="FormAndMessage">
+        <form id="postMessageForm" style="max-width:940px;">
+            <div class="input-wrapper">
+                <input type="text" name="name" class="inputText" required>
+                <label class="label">昵称</label>
+            </div>
+            <div class="input-wrapper">
+                <textarea name="content" class="inputText" rows="4" required></textarea>
+                <label>留言</label>
+            </div>
+            <input class="inputButton" type="submit" value="SEND">
+        </form>
+        <ol id="messageList"></ol>
+    </div>
 </section>
+<footer>
+    <div class="footer">
+        <h1>Made by VisionTan</h1>
+        <p>Copyright © 2019-2020 谭题伶版权所有</p>
+    </div>
+</footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.4.0/Tween.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.15.0/dist/av-min.js"></script>
@@ -244,6 +257,5 @@
 <script src="./js/loading.js"></script>
 <script src="./js/message.js"></script>
 <script src="./js/skills.js"></script>
-<script src="./js/portfolio.js"></script>
 </body>
 </html>

@@ -26,7 +26,10 @@ ul, ol {
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
-
+input:focus,
+textarea:focus{
+    outline: none;
+}
 .icon {
     width: 1em;
     height: 1em;
@@ -420,14 +423,14 @@ section.portfolio h2 {
     margin-bottom: 32px;
 }
 
-section.message > ol {
+section.message ol {
     max-width: 940px;
     border-top: 1px solid #DDD;
     margin: 0 auto;
     background: #F4F4F4;
 }
 
-section.message > ol > li {
+section.message ol > li {
     padding: 16px;
     border-bottom: 1px solid #DDD;
 }
@@ -484,12 +487,14 @@ section.message > ol > li {
     padding: 0 35px;
     text-align: justify;
 }
-.portfolio .works{
+
+.portfolio .works {
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
 }
-.portfolio .item{
+
+.portfolio .item {
     width: 50%;
     height: 300px;
     background-color: #ffffff;
@@ -497,14 +502,16 @@ section.message > ol > li {
     position: relative;
     overflow: hidden;
 }
-.portfolio .item img{
+
+.portfolio .item img {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     transition: 1s transform cubic-bezier(0.23, 1, 0.32, 1);
 }
-.portfolio .item .cover{
+
+.portfolio .item .cover {
     background-color: inherit;
     opacity: 0.9;
     z-index: 10;
@@ -516,16 +523,19 @@ section.message > ol > li {
     transform: scale(2) rotate(-45deg) translateX(-50%) translateY(-100%);
     transition: 1s transform cubic-bezier(0.23, 1, 0.32, 1);
 }
-.portfolio .item:hover img{
+
+.portfolio .item:hover img {
     transform: scale(1.1);
 }
-.portfolio .item:hover .cover{
+
+.portfolio .item:hover .cover {
     transform: scale(2) rotate(-45deg);
 }
-.portfolio .item .watchText{
+
+.portfolio .item .watchText {
     opacity: 0;
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
     color: #ffffff;
     font-weight: bold;
@@ -533,18 +543,98 @@ section.message > ol > li {
     transform: translateX(-50%) translateY(-200%);
     transition: 1s transform cubic-bezier(0.23, 1, 0.32, 1);
 }
-.portfolio .item:hover .watchText{
+
+.portfolio .item:hover .watchText {
     opacity: 1;
     transform: translateX(-50%) translateY(-50%);
 }
-.portfolio .item .watchText .proTitle{
+
+.portfolio .item .watchText .proTitle {
     font-size: 20px;
     white-space: nowrap;
 }
-.portfolio .item .watchText .proContent{
+
+.portfolio .item .watchText .proContent {
     display: inline-block;
     font-size: 15px;
     margin-top: 10px;
     font-weight: 350;
 }
 
+.message .FormAndMessage {
+    display: flex;
+    margin-top: 30px;
+}
+
+.message #postMessageForm {
+    width: 35%;
+    margin-top: 20px;
+}
+
+.message #messageList {
+    width: 65%;
+    background-color: white;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.message #postMessageForm .input-wrapper{
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.message #postMessageForm .inputText{
+    border: none;
+    background-color: #EFEFEF;
+    width: 90%;
+    padding: 8px 0;
+    border-bottom: 1px solid #2b2b2b;
+    resize: none;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif;
+}
+.message #postMessageForm label{
+    position: absolute;
+    left: 0;
+    top: 7px;
+    transition: all 0.3s;
+}
+.message #postMessageForm .input-wrapper.trigger label{
+    position: absolute;
+    left: 0;
+    top: -20px;
+    color: #FCC000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.message #postMessageForm .input-wrapper.trigger .inputText{
+    border-bottom: 2px solid #FCC000;
+}
+.message #postMessageForm .inputButton{
+    width: auto;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: #FCC000;
+    border: none;
+    color: white;
+    font-family: Open Sans,sans-serif;
+    line-height: 1.1;
+    cursor: pointer;
+}
+.message #postMessageForm .inputButton:hover{
+    background-color: #F29900;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: #232323;
+}
+.footer h1{
+    color: #FCC000;
+}
+.footer p{
+    color: #fff;
+    font-size: 13px;
+}
