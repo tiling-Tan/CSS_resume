@@ -628,13 +628,31 @@ section.message ol > li {
 }
 .footer{
     width: 100%;
-    height: 250px;
+    height: 200px;
     background-color: #232323;
 }
 .footer h1{
     color: #FCC000;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px;
 }
 .footer p{
-    color: #fff;
+    color: #666666;
     font-size: 13px;
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 0.02em;
+}
+.footer .arrive{
+    text-align: center;
+}
+.footer .arrive .icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    color: #666666;
+}
+.footer .arrive .icon:hover{
+    color: #FCC000;
 }
