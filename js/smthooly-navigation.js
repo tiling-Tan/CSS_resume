@@ -44,8 +44,12 @@
                     x.preventDefault();
                     let a = x.currentTarget;
                     let href = a.getAttribute('href'); //'#siteAbout'
-                    let element = document.querySelector(href);
-                    this.scrollToElement(element)
+                    if(href[0] === '#'){
+                        let element = document.querySelector(href);
+                        this.scrollToElement(element)
+                    }else{
+                        window.open(href)
+                    }
                 }
             }
         }
