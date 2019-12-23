@@ -2,7 +2,7 @@
   "name": "CSS_resume",
   "version": "1.0.0",
   "description": "https://tiling-tan.github.io/CSS_resume/index.html",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "jquery": "^3.4.1",
     "parcel-bundler": "^1.12.4"
