@@ -1,0 +1,29 @@
+{
+  "name": "CSS_resume",
+  "version": "1.0.0",
+  "description": "https://tiling-tan.github.io/CSS_resume/index.html",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "rm -rf dist && parcel build index.html --public--url /CSS_resume",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiling-Tan/CSS_resume.git"
+  },
+  "keywords": [],
+  "author": "tiling-tan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiling-Tan/CSS_resume/issues"
+  },
+  "homepage": "https://github.com/tiling-Tan/CSS_resume#readme"
+}

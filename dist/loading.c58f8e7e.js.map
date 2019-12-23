@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/loading.js"],"names":["setTimeout","siteWelcome","classList","remove"],"mappings":"AAAAA,UAAU,CAAC,YAAY;AACnBC,EAAAA,WAAW,CAACC,SAAZ,CAAsBC,MAAtB,CAA6B,QAA7B;AACH,CAFS,EAEP,IAFO,CAAV","file":"loading.c58f8e7e.js","sourceRoot":"..","sourcesContent":["setTimeout(function () {\n    siteWelcome.classList.remove(\"active\");\n}, 1250)"]}
