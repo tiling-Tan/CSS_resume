@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b279a7bb-c191-4fae-96c3-0de96397fe4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Author.df6c1e22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/apple-style-slide.3fcaeade.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/author-1.5906e6a0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/auto-slide-up.7a25ca20.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/auto-slide-up.7a25ca20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/auto-slide-up.7a25ca20.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/auto-slide-up.7a25ca20.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/avatar.2d652685.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/canvas.4a5ac105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cnode.edf66870.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/init-Swiper.948eb2de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/init-Swiper.948eb2de.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/loading.82c13e97.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/loading.82c13e97.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/loading.82c13e97.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/loading.82c13e97.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/loading.c58f8e7e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/loading.c58f8e7e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/loading.c58f8e7e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/loading.c58f8e7e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.c52e0fe2.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.c52e0fe2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.c52e0fe2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.c52e0fe2.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/message.baa57d69.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/message.baa57d69.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/message.baa57d69.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/message.baa57d69.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/nav-page.67f826c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/portfolio.6587ff66.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/portfolio.6587ff66.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/rs-cover.7f93a6a4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/skills.03fe8d10.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/skills.03fe8d10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/skills.03fe8d10.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/skills.03fe8d10.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/smthooly-navigation.a7ef5ec7.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/smthooly-navigation.a7ef5ec7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/smthooly-navigation.a7ef5ec7.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/smthooly-navigation.a7ef5ec7.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sticky-topbar.5ebf55e2.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sticky-topbar.5ebf55e2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sticky-topbar.5ebf55e2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sticky-topbar.5ebf55e2.js.map" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/loading.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/message.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1126">
+              <caret line="68" column="87" selection-start-line="68" selection-start-column="87" selection-end-line="68" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="414" column="17" selection-start-line="414" selection-start-column="17" selection-end-line="414" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/auto-slide-up.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/smthooly-navigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>querySelector</find>
+      <find>.swiper-container</find>
+      <find>TWEEN.update(time)</find>
+      <find>transition</find>
+      <find>hover</find>
+      <find>dt</find>
+      <find>nav</find>
+      <find>portfolio</find>
+      <find>transform</find>
+      <find>slideUp</find>
+      <find>opac</find>
+      <find>ol</find>
+      <find>box-shadow</find>
+      <find>.skills-inner</find>
+      <find>input</find>
+      <find>myForm</find>
+      <find>form</find>
+      <find>sec</find>
+      <find>messageList</find>
+      <find>message</find>
+      <find>footer</find>
+      <find>dd</find>
+      <find>siteAbout</find>
+      <find>留言</find>
+      <find>data-x</find>
+      <find>highLight</find>
+      <find>menu</find>
+      <find>load</find>
+      <find>opacity</find>
+      <find>loading</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/skills.js" />
+        <option value="$PROJECT_DIR$/js/portfolio.js" />
+        <option value="$PROJECT_DIR$/js/smthooly-navigation.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/message.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/CSS_resume.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1095" />
+    <option name="width" value="832" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CSS_resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSS_resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b279a7bb-c191-4fae-96c3-0de96397fe4b" name="Default Changelist" comment="" />
+      <created>1574160714977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574160714977</updated>
+      <workItem from="1574160716131" duration="1255000" />
+      <workItem from="1574162718708" duration="6564000" />
+      <workItem from="1574652285514" duration="16000" />
+      <workItem from="1575517645923" duration="28260000" />
+      <workItem from="1575857948229" duration="24256000" />
+      <workItem from="1576082992805" duration="56883000" />
+      <workItem from="1576835994656" duration="17324000" />
+    </task>
+    <task id="LOCAL-00001" summary="新增skills.js">
+      <created>1575958542059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575958542059</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更改portfolio布局和样式">
+      <created>1576069169355</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576069169355</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新portfolio">
+      <created>1576161760776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576161760776</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完成留言板">
+      <created>1576834479302</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576834479302</updated>
+    </task>
+    <task id="LOCAL-00005" summary="完成footer">
+      <created>1576836869642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576836869642</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改导航栏">
+      <created>1577001200010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577001200010</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gh-pages deploy">
+      <created>1577111754305</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577111754305</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加loading">
+      <created>1577112750303</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577112750303</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="134558000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15079366" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4994709" visible="true" weight="0.25784755" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005291" side_tool="true" weight="0.29820627" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32847533" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增skills.js" />
+    <MESSAGE value="更改portfolio布局和样式" />
+    <MESSAGE value="更新portfolio" />
+    <MESSAGE value="完成留言板" />
+    <MESSAGE value="完成footer" />
+    <MESSAGE value="修改导航栏" />
+    <MESSAGE value="gh-pages deploy" />
+    <MESSAGE value="添加loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加loading" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loading.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/portfolio.js" />
+    <entry file="file://$PROJECT_DIR$/js/skills.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/init-Swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sticky-topbar.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/auto-slide-up.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/smthooly-navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="414" column="17" selection-start-line="414" selection-start-column="17" selection-end-line="414" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/loading.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1126">
+          <caret line="68" column="87" selection-start-line="68" selection-start-column="87" selection-end-line="68" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
