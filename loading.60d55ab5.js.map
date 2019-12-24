@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/loading.js"],"names":["setTimeout","siteWelcome","classList","remove"],"mappings":";AAAAA,WAAW,WACPC,YAAYC,UAAUC,OAAO,WAC9B","file":"loading.60d55ab5.js","sourceRoot":"..","sourcesContent":["setTimeout(function () {\n    siteWelcome.classList.remove(\"active\");\n}, 1250)"]}
